@@ -5,13 +5,6 @@ class Opencascade < Formula
   sha256 "e9da098b304f6b65c3958947c3c687f00128ce020b67d97554a3e3be9cf3d090"
   revision 4
 
-  bottle do
-    cellar :any
-    sha256 "cee345bc42279a0bf61e3c24e111127c55a89be6d3479c96ec6e2672321ddabe" => :el_capitan
-    sha256 "d558fa645071e5459e6db4694ece37d03e35fb0f2e7d1baa19470168cfbde705" => :yosemite
-    sha256 "3e32b4563fe163822172e69d4daaad14d5c820b2a33e453b829339058944063f" => :mavericks
-  end
-
   conflicts_with "oce", :because => "OCE is a fork for patches/improvements/experiments over OpenCascade"
 
   option "without-opencl", "Build without OpenCL support" if OS.mac?
