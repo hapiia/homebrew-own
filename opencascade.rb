@@ -3,7 +3,7 @@ class Opencascade < Formula
   homepage "http://www.opencascade.org/"
   url "/Users/tatsuyasen/Downloads/opencascade-6.9.1.tgz"
   sha256 "e9da098b304f6b65c3958947c3c687f00128ce020b67d97554a3e3be9cf3d090"
-  revision 3
+  revision 4
 
   bottle do
     cellar :any
