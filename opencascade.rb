@@ -30,7 +30,7 @@ class Opencascade < Formula
     sdk_path = Pathname.new `xcrun --show-sdk-path`.strip
 
     # setting DYLD causes many issues; all tests work fine without; suppress
-    # inreplace "env.sh", "export DYLD_LIBRARY_PATH", "export OCCT_DYLD_LIBRARY_PATH" if OS.mac?
+    inreplace "env.sh", "export DYLD_LIBRARY_PATH", "export OCCT_DYLD_LIBRARY_PATH" if OS.mac?
 
     cmake_args = std_cmake_args
     cmake_args = cmake_args.map { |s| s.gsub(/RELEASE/, "DEBUG") }.map { |s| s.gsub(/Release/, "Debug") }
