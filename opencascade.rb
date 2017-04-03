@@ -2,8 +2,8 @@ class Opencascade < Formula
   desc "Environment for 3D modeling and development of numerical simulation software including CAD/CAM/CAE"
   homepage "http://www.opencascade.org/"
   url "file:///Users/tatsuyasen/Downloads/opencascade-7.1.0.tgz"
-  sha256 "073445b37b62d005a64744ba601f36ec118a25913dee4e6419f30dc9594a90dc"
-  revision 0
+  sha256 "0e23f038f4d12ed68d402dd8093923ac506db34abcf1c09bd2bffba1587f68d5"
+  revision 1
 
   conflicts_with "oce", :because => "OCE is a fork for patches/improvements/experiments over OpenCascade"
 
