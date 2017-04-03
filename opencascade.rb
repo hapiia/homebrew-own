@@ -1,7 +1,7 @@
 class Opencascade < Formula
   desc "Environment for 3D modeling and development of numerical simulation software including CAD/CAM/CAE"
   homepage "http://www.opencascade.org/"
-  url "file:///Users/tatsuyasen/Downloads/opencascade-7.0.0.tgz"
+  url "file:///Users/tatsuyasen/Downloads/opencascade-7.1.0.tgz"
   sha256 "073445b37b62d005a64744ba601f36ec118a25913dee4e6419f30dc9594a90dc"
   revision 0
 
